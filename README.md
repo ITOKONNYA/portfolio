@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-![readmeimage](https://user-images.githubusercontent.com/124262891/218027470-2e212cb4-c050-4f1c-9444-2c607cd0dbaf.gif)
+![demo](https://user-images.githubusercontent.com/124262891/218027470-2e212cb4-c050-4f1c-9444-2c607cd0dbaf.gif)
 
 __Full screen__ is recommended. If not, a minimum width of __1080px__ and a minimum height of __720px__ is recommended.
 
