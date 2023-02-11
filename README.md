@@ -5,3 +5,17 @@
 URL : https://itokonnya.github.io/Portfolio/
 
 ## Supported Browsers
+
+* Windows
+    * Google Chrome (latest version) - Recommended
+    * Microsoft Edge (latest version)
+    * Mozilla Firefox (latest version)
+* macOS
+    * Google Chrome (latest version) - Recommended
+    * Microsoft Edge (latest version)
+    * Mozilla Firefox (latest version)
+    * Apple Safari (latest version)
+* iPadOS
+* Android
+
+Any browser you use needs to have __JavaScript__ turned on. 
