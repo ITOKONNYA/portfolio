@@ -4,6 +4,8 @@
 
 URL : https://itokonnya.github.io/Portfolio/
 
+If not in __full screen__, a minimum width of __1080px__ and a minimum height of __720px__ is recommended.
+
 ## Supported Browsers
 
 * Windows
