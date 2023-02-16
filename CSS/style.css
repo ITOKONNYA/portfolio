@@ -106,7 +106,7 @@ a:hover {
 /*---------------- header ------------------------------------------------*/
 
 #header {
-	display: none; /* "none" to "flex" by "header-animation.js" */
+	display: flex;
     align-items: center;
 	position: fixed;
 	top: 0;
@@ -134,6 +134,17 @@ a:hover {
 	color: #fbfbff;
 	font-weight: 300;
 	font-family: "Josefin Sans", sans-serif;
+}
+
+#header-cover {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	transform: translate(0, -100%);
+	width: min(100%, 60rem);
+	height: 3rem;
+	margin: 0 auto;
+	background-color: #322d32;
 }
 
 /*---------------- /header ------------------------------------------------*/

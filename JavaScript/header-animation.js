@@ -55,7 +55,7 @@ class HeaderAnimation {
             this.header.style.transform = 'translate(0, -' + (1 - (this.count / this.countMax)) * 100 + '%)';
             window.requestAnimationFrame(this.execution);
         } else {
-            this.header.style.display = 'none';
+            ;
         }
     }
 
@@ -90,7 +90,6 @@ class HeaderAnimation {
             }
         }
         if (this.isReady) {
-            this.header.style.display = 'flex';
             window.requestAnimationFrame(this.execution);
             this.isReady = false;
         } else {
