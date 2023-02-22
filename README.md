@@ -16,6 +16,9 @@ __Full screen__ is recommended. If not, a minimum width of __1080px__ and a mini
     * Mozilla Firefox (latest version)
     * Apple Safari (latest version)
 * iPadOS
+    * Google Chrome (latest version) - Recommended
+    * Apple Safari (latest version)
 * Android
+    * Google Chrome (latest version) - Recommended
 
 Any browser you use needs to have __JavaScript__ turned on. 
