@@ -16,9 +16,9 @@ class FooterHidden {
     alterStyle() {
         this.screenBottom = document.documentElement.clientHeight;
         if (this.screenBottom < this.actionPoint.getBoundingClientRect().top) {
-            this.footer.style.display = 'none';
+            this.footer.style.visibility = 'hidden';
         } else {
-            this.footer.style.display = 'block';
+            this.footer.style.visibility = 'visible';
         }
     }
 }

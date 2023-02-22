@@ -71,33 +71,38 @@ a:hover {
 
 #background {
 	position: fixed;
-	top: 0; /* 0 to variable by "background-parallax.js" */
+	top: 0;
 	z-index: -1;
+	transform: translate(0, 0); /* 0 to variable by "background-parallax.js" */
 	width: min(100%, 60rem);
 	height: 60rem;
 	margin: 0 auto;
 	background-color: #322d32;
 }
 
-#cat {
+.cat {
+	position: absolute;
+	right: 0;
 	width: 70%;
 	height: 94vh;
 	min-height: 30rem;
-	margin: 0 0 0 auto;
 	background-position: center;
 	background-size: contain;
 	background-repeat:no-repeat;
 }
 
-#cat.opened {
+.cat#opened {
+	visibility: visible; /* "hidden" to "visible" by "cat-alteration.js" */
 	background-image: url("../Images/cat-opened.svg");
 }
 
-#cat.closed {
+.cat#closed {
+	visibility: hidden; /* "hidden" to "visible" by "cat-alteration.js" */
 	background-image: url("../Images/cat-closed.svg");
 }
 
-#cat.hidden {
+.cat#hidden {
+	visibility: hidden; /* "hidden" to "visible" by "cat-alteration.js" */
 	background-image: url("../Images/cat-hidden.svg");
 }
 
@@ -328,7 +333,7 @@ a:hover {
 /*---------------- footer ------------------------------------------------*/
 
 #footer {
-	display: none; /* "none" to "block" by "footer-hidden.js" */
+	visibility: hidden; /* "hidden" to "visible" by "footer-hidden.js" */
 	position: fixed;
 	bottom: 0;
 	z-index: -1;
@@ -383,7 +388,7 @@ a:hover {
 		max-width: 35rem;
 	}
 
-	#cat {
+	.cat {
 		width: 86%;
 		min-height: 0;
 	}
@@ -441,7 +446,7 @@ a:hover {
 		background-color: #322d32;
 	}
 
-	#cat {
+	.cat {
 		opacity: 0.6;
 		width: 120%;
 		background-size:contain;

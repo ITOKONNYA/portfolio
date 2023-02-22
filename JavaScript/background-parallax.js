@@ -17,7 +17,7 @@ class BackgroundParallax {
         this.documentHeight = document.documentElement.scrollHeight;
         this.screenHeight = document.documentElement.clientHeight;
         this.scrollTop = document.documentElement.scrollTop;
-        this.background.style.top = this.scrollTop * (this.screenHeight - this.backgroundHeight) / (this.documentHeight - this.screenHeight) + 'px';
+        this.background.style.transform = 'translate(0, ' + this.scrollTop * (this.screenHeight - this.backgroundHeight) / (this.documentHeight - this.screenHeight) + 'px)';
     }
 }
 
