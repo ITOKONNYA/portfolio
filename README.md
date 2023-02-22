@@ -6,15 +6,15 @@ __Full screen__ is recommended. If not, a minimum width of __1080px__ and a mini
 
 ## Supported Browsers
 
-* Windows
-    * Google Chrome (latest version) - Recommended
-    * Microsoft Edge (latest version)
-    * Mozilla Firefox (latest version)
 * macOS
     * Google Chrome (latest version) - Recommended
     * Microsoft Edge (latest version)
     * Mozilla Firefox (latest version)
     * Apple Safari (latest version)
+* Windows
+    * Google Chrome (latest version) - Recommended
+    * Microsoft Edge (latest version)
+    * Mozilla Firefox (latest version)
 * iPadOS
     * Google Chrome (latest version) - Recommended
     * Apple Safari (latest version)
