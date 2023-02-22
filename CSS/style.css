@@ -341,7 +341,7 @@ a:hover {
 #footer-content-area {
 	display: flex;
     align-items: center;
-	transform: translate(-1.5rem, 0);
+	transform: translate(-1rem, 0);
 	width: max-content;
 	height: 100%;
 	margin: 0 auto;
