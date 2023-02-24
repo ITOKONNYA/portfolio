@@ -5,6 +5,9 @@ class FooterHidden {
     }
 
     activate() {
+        window.addEventListener('load', () => {
+            this.alterStyle();
+        });
         window.addEventListener('resize', () => {
             this.alterStyle();
         });

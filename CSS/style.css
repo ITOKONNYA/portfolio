@@ -447,9 +447,10 @@ a:hover {
 	}
 
 	.cat {
+		right: auto;
 		opacity: 0.6;
 		width: 120%;
-		background-size:contain;
+		background-size: contain;
 	}
 
 	#title-area {
